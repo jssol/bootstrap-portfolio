@@ -1,0 +1,27 @@
+{
+  "name": "bootstrap-portfolio",
+  "version": "1.0.0",
+  "description": "If you are not familiar with linters, read [root level README](../README.md).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jssol/bootstrap-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jssol/bootstrap-portfolio/issues"
+  },
+  "homepage": "https://github.com/jssol/bootstrap-portfolio#readme",
+  "devDependencies": {
+    "hint": "^6.1.9",
+    "stylelint": "^14.2.0",
+    "stylelint-config-standard": "^24.0.0",
+    "stylelint-csstree-validator": "^2.0.0",
+    "stylelint-scss": "^4.1.0"
+  }
+}
