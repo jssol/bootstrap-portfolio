@@ -1,16 +1,435 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Bootstrap Site</title>
-  
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
-</head>
-<body>
-<h1>Hello-Bootstrap</h1>
-</body>
+    <title>Mostafa Ahangarha's Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+      integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="min-vh-100 bg-light">
+    <header class="container-fluid navbar-white bg-light">
+      <div class="navbar container py-3">
+        <a class="navbar-brand text-primary font-weight-bold" href="#"
+          >My Logo</a
+        >
+
+        <button
+          class="btn btn-default d-lg-none"
+          type="button"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa fa-bars fa-2x text-primary" aria-hidden="true"></i>
+        </button>
+        <ul class="nav d-none d-lg-inline-flex">
+          <li class="nav-item">
+            <a class="nav-link" href="#works">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <section
+      class="vh-100 container-fluid bg-white d-flex justify-content-center align-items-center"
+    >
+      <div class="container col col-lg-8">
+        <h1 class="font-weight-bold fs-1">I'm Mostafa Ahangarha</h1>
+        <p>
+          I am a Fullstack developer and a Software Freedom advocate. Here you
+          can see some samples of my work. If you find me helpful for your
+          business, contact me
+        </p>
+        <h5 class="text-primary">LET'S CONTACT</h5>
+        <ul class="nav list-inline">
+          <li class="nav-item mr-2">
+            <a class="nav-link p-1 text-secondary" href="#"
+              ><i class="fa fa-twitter"></i
+            ></a>
+          </li>
+          <li class="nav-item mr-2">
+            <a class="nav-link p-1 text-secondary" href="#"
+              ><i class="fa fa-github"></i
+            ></a>
+          </li>
+          <li class="nav-item mr-2">
+            <a class="nav-link p-1 text-secondary" href="#"
+              ><i class="fa fa-linkedin"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="container py-5" id="works">
+      <div class="row bg-white rounded g-4 my-5 pb-4 p-3 mx-3">
+        <div class="col-lg-6">
+          <img
+            src="./assets/img/snapshoot1.png"
+            alt="Screenshot 1"
+            class="img-fluid rounded"
+          />
+        </div>
+        <div class="col-lg-6 d-flex flex-column py-3">
+          <h2 class="font-weight-bold">Tonic</h2>
+          <ul class="nav d-flex align-items-center mt-3 small">
+            <li class="nav-item mr-2 text-uppercase font-weight-bold">
+              canopy
+            </li>
+            <li>
+              <i class="fa fa-xs fa-circle nav-item mr-2 text-secondary"></i>
+            </li>
+            <li class="nav-item mr-2 font-weight-bold text-secondary">
+              Back End Dev
+            </li>
+            <li>
+              <i class="fa fa-xs fa-circle nav-item mr-2 text-secondary"></i>
+            </li>
+            <li class="nav-item mr-2 font-weight-bold text-secondary">2015</li>
+          </ul>
+
+          <p class="m-0 mt-3">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <ul class="nav mt-3">
+            <li
+              class="nav-item mr-2 px-2 py-1 small text-white bg-primary rounded"
+            >
+              html
+            </li>
+            <li
+              class="nav-item mr-2 px-2 py-1 small text-white bg-primary rounded"
+            >
+              css
+            </li>
+            <li
+              class="nav-item mr-2 px-2 py-1 small text-white bg-primary rounded"
+            >
+              javascript
+            </li>
+          </ul>
+          <a href="#" class="btn btn-outline-primary align-self-start mt-3"
+            >See Project</a
+          >
+        </div>
+      </div>
+
+      <div class="row bg-white rounded g-4 my-5 pb-4 p-3 mx-3">
+        <div class="col-lg-6 order-lg-1">
+          <img
+            src="./assets/img/snapshoot2.png"
+            alt="Screenshot 2"
+            class="img-fluid rounded"
+          />
+        </div>
+        <div class="col-lg-6 d-flex flex-column py-3">
+          <h2 class="font-weight-bold">Multi-Post Stories</h2>
+          <ul class="nav d-flex align-items-center mt-3 small">
+            <li class="nav-item mr-2 text-uppercase font-weight-bold">
+              canopy
+            </li>
+            <li>
+              <i class="fa fa-xs fa-circle nav-item mr-2 text-secondary"></i>
+            </li>
+            <li class="nav-item mr-2 font-weight-bold text-secondary">
+              Back End Dev
+            </li>
+            <li>
+              <i class="fa fa-xs fa-circle nav-item mr-2 text-secondary"></i>
+            </li>
+            <li class="nav-item mr-2 font-weight-bold text-secondary">2015</li>
+          </ul>
+
+          <p class="m-0 mt-3">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <ul class="nav mt-3">
+            <li
+              class="nav-item mr-2 px-2 py-1 small text-white bg-primary rounded"
+            >
+              html
+            </li>
+            <li
+              class="nav-item mr-2 px-2 py-1 small text-white bg-primary rounded"
+            >
+              css
+            </li>
+            <li
+              class="nav-item mr-2 px-2 py-1 small text-white bg-primary rounded"
+            >
+              javascript
+            </li>
+          </ul>
+          <a href="#" class="btn btn-outline-primary align-self-start mt-3"
+            >See Project</a
+          >
+        </div>
+      </div>
+
+      <div class="row bg-white rounded g-4 my-5 pb-4 p-3 mx-3">
+        <div class="col-lg-6">
+          <img
+            src="./assets/img/snapshoot3.png"
+            alt="Screenshot 3"
+            class="img-fluid rounded"
+          />
+        </div>
+        <div class="col-lg-6 d-flex flex-column py-3">
+          <h2 class="font-weight-bold">Tonic</h2>
+          <ul class="nav d-flex align-items-center mt-3 small">
+            <li class="nav-item mr-2 text-uppercase font-weight-bold">
+              canopy
+            </li>
+            <li>
+              <i class="fa fa-xs fa-circle nav-item mr-2 text-secondary"></i>
+            </li>
+            <li class="nav-item mr-2 font-weight-bold text-secondary">
+              Back End Dev
+            </li>
+            <li>
+              <i class="fa fa-xs fa-circle nav-item mr-2 text-secondary"></i>
+            </li>
+            <li class="nav-item mr-2 font-weight-bold text-secondary">2015</li>
+          </ul>
+
+          <p class="m-0 mt-3">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <ul class="nav mt-3">
+            <li
+              class="nav-item mr-2 px-2 py-1 small text-white bg-primary rounded"
+            >
+              html
+            </li>
+            <li
+              class="nav-item mr-2 px-2 py-1 small text-white bg-primary rounded"
+            >
+              css
+            </li>
+            <li
+              class="nav-item mr-2 px-2 py-1 small text-white bg-primary rounded"
+            >
+              javascript
+            </li>
+          </ul>
+          <a href="#" class="btn btn-outline-primary align-self-start mt-3"
+            >See Project</a
+          >
+        </div>
+      </div>
+
+      <div class="row bg-white rounded g-4 my-5 pb-4 p-3 mx-3">
+        <div class="col-lg-6 order-lg-1">
+          <img
+            src="./assets/img/snapshoot4.png"
+            alt="Screenshot 4"
+            class="img-fluid rounded"
+          />
+        </div>
+        <div class="col-lg-6 d-flex flex-column py-3">
+          <h2 class="font-weight-bold">Tonic</h2>
+          <ul class="nav d-flex align-items-center mt-3 small">
+            <li class="nav-item mr-2 text-uppercase font-weight-bold">
+              canopy
+            </li>
+            <li>
+              <i class="fa fa-xs fa-circle nav-item mr-2 text-secondary"></i>
+            </li>
+            <li class="nav-item mr-2 font-weight-bold text-secondary">
+              Back End Dev
+            </li>
+            <li>
+              <i class="fa fa-xs fa-circle nav-item mr-2 text-secondary"></i>
+            </li>
+            <li class="nav-item mr-2 font-weight-bold text-secondary">2015</li>
+          </ul>
+
+          <p class="m-0 mt-3">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <ul class="nav mt-3">
+            <li
+              class="nav-item mr-2 px-2 py-1 small text-white bg-primary rounded"
+            >
+              html
+            </li>
+            <li
+              class="nav-item mr-2 px-2 py-1 small text-white bg-primary rounded"
+            >
+              css
+            </li>
+            <li
+              class="nav-item mr-2 px-2 py-1 small text-white bg-primary rounded"
+            >
+              javascript
+            </li>
+          </ul>
+          <a href="#" class="btn btn-outline-primary align-self-start mt-3"
+            >See Project</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid bg-white py-5" id="about">
+      <div class="container mx-auto row">
+        <div class="col-lg-5">
+          <h1 class="font-weight-bold fs-1">About myself</h1>
+          <p>
+            I am a Fullstack developer and a Software Freedom advocate. Here you
+            can see some samples of my work. If you find me helpful for your
+            business, contact me
+          </p>
+          <h5 class="text-primary">LET'S CONTACT</h5>
+          <ul class="nav list-inline">
+            <li class="nav-item mr-2">
+              <a class="nav-link p-1 text-secondary" href="#"
+                ><i class="fa fa-twitter"></i
+              ></a>
+            </li>
+            <li class="nav-item mr-2">
+              <a class="nav-link p-1 text-secondary" href="#"
+                ><i class="fa fa-github"></i
+              ></a>
+            </li>
+            <li class="nav-item mr-2">
+              <a class="nav-link p-1 text-secondary" href="#"
+                ><i class="fa fa-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+          <a href="#" class="btn btn-outline-primary align-self-start mt-3"
+            >Get my resume</a
+          >
+        </div>
+        <div class="col-lg-7 mt-4 mt-lg-0">
+          <div class="list-group">
+            <div class="list-group-item border-0 d-flex flex-column">
+              <div
+                class="d-flex justify-content-between align-items-center py-3"
+              >
+                <h5 class="m-0">Languages</h5>
+                <i class="fa fa-angle-down" aria-hidden="true"></i>
+              </div>
+              <ul
+                class="list-unstyled flex-column d-lg-inline-flex flex-lg-row"
+              >
+                <li
+                  class="rounded bg-light p-3 d-flex flex-row align-items-center align-items-lg-start flex-lg-column mb-3 mb-lg-0 mr-lg-3"
+                >
+                  <img
+                    class="rounded-circle mr-lg-5 mb-lg-3 mr-3"
+                    width="48"
+                    src="assets/img/icon-js.png"
+                    alt="javascript icon"
+                  /><span>Javascript</span>
+                </li>
+                <li
+                  class="rounded bg-light p-3 d-flex flex-row align-items-center align-items-lg-start flex-lg-column mb-3 mb-lg-0 mr-lg-3"
+                >
+                  <img
+                    class="rounded-circle mr-lg-5 mb-lg-3 mr-3"
+                    width="48"
+                    src="assets/img/icon-html.png"
+                    alt="html icon"
+                  /><span>HTML</span>
+                </li>
+                <li
+                  class="rounded bg-light p-3 d-flex flex-row align-items-center align-items-lg-start flex-lg-column mb-3 mb-lg-0 mr-lg-3"
+                >
+                  <img
+                    class="rounded-circle mr-lg-5 mb-lg-3 mr-3"
+                    src="assets/img/icon-css.png"
+                    width="48"
+                    alt="css icon"
+                  /><span>CSS</span>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="list-group-item d-flex border-bottom border-0 justify-content-between align-items-center py-3"
+            >
+              <h5 class="m-0">Frameworks</h5>
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </div>
+            <div
+              class="list-group-item d-flex border-bottom border-0 justify-content-between align-items-center py-3"
+            >
+              <h5 class="m-0">Tools</h5>
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid bg-primary text-white py-5" id="contact">
+      <div class="container row mx-auto text-center">
+        <div class="col-lg-6 offset-lg-3">
+          <h2 class="font-weight-bold">Contact me</h2>
+          <p class="mt-4">
+            If you have an application you are interested in developing, a
+            feature that you need built or a project that needs coding. I’d love
+            to help with it
+          </p>
+          <form action="#" class="mt-4 px-lg-5">
+            <input
+              type="text"
+              class="form-control px-3 py-2 mb-3 text-dark"
+              placeholder="Your name"
+              required
+            />
+            <input
+              type="email"
+              class="form-control px-3 py-2 mb-3 text-dark"
+              placeholder="Your email"
+              required
+            />
+            <textarea
+              name="message"
+              class="form-control px-3 py-2 mb-3 text-dark"
+              rows="7"
+              placeholder="Your message"
+              required
+            ></textarea>
+
+            <input
+              type="submit"
+              class="btn btn-outline-light"
+              value="Get In Touch"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
