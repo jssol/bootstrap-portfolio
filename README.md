@@ -2,58 +2,33 @@
 
 # Bootstrap Portfolio
 
-> One paragraph statement about the project.
+> This is Mostafa's Portfolio made with Bootstrap 5
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
-
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML5/CSS3
+- Bootstrap 5
+- Font awesome
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+[Live Demo Link](https://jssol.github.io/bootstrap-portfolio)
 
 ## Authors
 
-👤 **Author1**
+👤 **Mostafa Ahangarha**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [Mostafa Ahangarha](https://github.com/ahangarha)
+- Twitter: [Mostafa Ahangarha](https://twitter.com/ahangarha)
+- LinkedIn: [Mostafa Ahangarha](https://linkedin.com/in/ahangarha)
 
-👤 **Author2**
+👤 **Jonathan Sivahera**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [Jonathan Sivahera](https://github.com/jssol)
+- Twitter: [Jonathan Sivahera](https://twitter.com/jsivahera)
+- LinkedIn: [Jonathan Sivahera](https://linkedin.com/in/jsivahera)
 
 ## 🤝 Contributing
 
@@ -64,12 +39,6 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
